@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "chemicaltools-bot": "^1.0.2",
+    "node-telegram-bot-api": "^0.30.0"
+  },
+  "name": "chemicaltoolstelegram",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/njzjz/chemicaltools-telegram",
+  "author": "Jinzhe Zeng",
+  "license": "MIT"
+}
