@@ -12,5 +12,5 @@ bot.setWebHook(`${url}/bot${TOKEN}`);
 bot.onText(/([\s\S]*)/, (msg, match) => {
     const chatId = msg.chat.id;
     const resp = chemicaltoolsbot(match[0]);
-    bot.sendMessage(chatId, resp);
+    bot.sendMessage(chatId, resp, { parse_mode:"HTML" });
 });
