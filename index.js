@@ -11,6 +11,6 @@ const bot = new TelegramBot(TOKEN, options);
 bot.setWebHook(`${url}/bot${TOKEN}`);
 bot.onText(/([\s\S]*)/, (msg, match) => {
     const chatId = msg.chat.id;
-    const resp = chemicaltoolsbot(match[0]);
+    const resp = chemicaltoolsbot(match[0], 'zh');
     bot.sendMessage(chatId, resp, { parse_mode:"HTML" });
 });
