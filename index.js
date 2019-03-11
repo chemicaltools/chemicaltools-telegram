@@ -1,7 +1,14 @@
 const TelegramBot = require('node-telegram-bot-api');
 const chemicaltoolsbot = require('chemicaltools-bot')
 const TOKEN = '621653660:AAH-j39YYtzPgkueko9kSi4xIn4xnIlP1Mk';
-const bot = new TelegramBot(TOKEN, { polling: true });
+const options = {
+    webHook: {
+      port: process.env.PORT
+    }
+  };
+const url = process.env.APP_URL || 'https://chemicaltools-telegram.herokuapp.com:443';
+const bot = new TelegramBot(TOKEN, options);
+bot.setWebHook(`${url}/bot${TOKEN}`);
 bot.onText(/(.+)/, (msg, match) => {
     const chatId = msg.chat.id;
     const resp = chemicaltoolsbot(match[0]);
