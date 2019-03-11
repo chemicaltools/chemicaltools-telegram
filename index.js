@@ -9,8 +9,11 @@ const options = {
 const url = process.env.APP_URL || 'https://chemicaltools-telegram.herokuapp.com:443';
 const bot = new TelegramBot(TOKEN, options);
 bot.setWebHook(`${url}/bot${TOKEN}`);
-bot.onText(/([\s\S]*)/, (msg, match) => {
-    const chatId = msg.chat.id;
-    const resp = chemicaltoolsbot(match[0]);
-    bot.sendMessage(chatId, resp);
+//bot.onText(/([\s\S]*)/, (msg, match) => {
+//    const chatId = msg.chat.id;
+//    const resp = chemicaltoolsbot(match[0]);
+//    bot.sendMessage(chatId, resp);
+//});
+bot.on('message', function onMessage(msg) {
+    bot.sendMessage(msg.chat.id, 'I am alive on Heroku!');
 });
