@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const TOKEN = '621653660:AAH-j39YYtzPgkueko9kSi4xIn4xnIlP1Mk';
 const url = 'chemicaltoolstelegram.njzjz.win';
 const bot = new TelegramBot(TOKEN);
-bot.setWebHook(`${url}/bot${TOKEN}`);
+bot.setWebHook(`${url}/`);
 bot.onText(/(.+)/, (msg, match) => {
   const chatId = msg.chat.id;
   const resp = chemicaltoolsbot(match[0]); 
@@ -13,7 +13,7 @@ bot.onText(/(.+)/, (msg, match) => {
 });
 const app = express();
 app.use(bodyParser.json());
-app.post(`/bot${TOKEN}`, (req, res) => {
+app.post(`/`, (req, res) => {
   bot.processUpdate(req.body);
   res.sendStatus(200);
 });
