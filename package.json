@@ -1,8 +1,6 @@
 {
   "dependencies": {
-    "body-parser": "^1.18.3",
     "chemicaltools-bot": "^1.0.2",
-    "express": "^4.16.4",
     "node-telegram-bot-api": "^0.30.0"
   },
   "name": "chemicaltoolstelegram",
