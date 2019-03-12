@@ -79,10 +79,10 @@ caseless@~0.12.0:
   resolved "http://registry.npm.taobao.org/caseless/download/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
-chemicaltools-bot@^1.0.2:
-  version "1.0.2"
-  resolved "http://registry.npm.taobao.org/chemicaltools-bot/download/chemicaltools-bot-1.0.2.tgz#04d7b71f9f394a5e8fb22e204db822671dd2ce52"
-  integrity sha1-BNe3H585Sl6Psi4gTbgiZx3SzlI=
+chemicaltools-bot@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/chemicaltools-bot/-/chemicaltools-bot-1.0.3.tgz#68ef90092abe429390f48f678e99230df90fdfa4"
+  integrity sha512-D28ol0qxWgSdD5zK7bWIEZVdQeggJUD2A+dBlKqZk3rNThY+caABKs1313nHDPeaUDj1JX7NIjt3sZJqRM2pnA==
   dependencies:
     chemicaltools "^1.0.15"
     i18next "^15.0.6"
