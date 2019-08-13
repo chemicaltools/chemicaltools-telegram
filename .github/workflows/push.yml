@@ -1,0 +1,12 @@
+on: push
+name: Install
+jobs:
+  yarnInstall:
+    name: yarn install
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: yarn install
+      uses: Borales/actions-yarn@master
+      with:
+        args: install
