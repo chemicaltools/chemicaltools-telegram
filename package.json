@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "chemicaltools-bot": "^1.0.5",
-    "node-telegram-bot-api": "^0.56.0"
+    "node-telegram-bot-api": "^0.57.0"
   },
   "name": "chemicaltoolstelegram",
   "version": "1.0.0",
