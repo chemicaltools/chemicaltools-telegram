@@ -103,9 +103,9 @@ caseless@~0.12.0:
   integrity sha512-4tYFyifaFfGacoiObjJegolkwSU4xQNGbVgUiNYVUxbQ2x2lUsFvY4hVgVzGiIe6WLOPqycWXA40l+PWsxthUw==
 
 chemicaltools-bot@^1.0.5:
-  version "1.0.19"
-  resolved "https://registry.yarnpkg.com/chemicaltools-bot/-/chemicaltools-bot-1.0.19.tgz#c17ebb4e28f6add866d96b652971a9fe8ddda87e"
-  integrity sha512-sBuDI7OcCMEzDcUh5xOb/YUpzE2A21eu5pwF+b3R1KYA0EEPAnkkUzbCTI8YKnpdnkooFG2BXftbIqBFOTsxVw==
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/chemicaltools-bot/-/chemicaltools-bot-1.0.21.tgz#5235ab770b46317652630a466757f2a47a4c45e5"
+  integrity sha512-jHmNANk4cYzs8edBAoGAqzJsYft+m6KDPonjHF6BPCyPi+saPTbOd8sUM0biHoANANLXdBaTnjljg6oLxuvg1w==
   dependencies:
     chemicaltools "^1.2.4"
     i18next "^23.0.0"
@@ -416,9 +416,9 @@ http-signature@~1.2.0:
     sshpk "^1.7.0"
 
 i18next@^23.0.0:
-  version "23.2.3"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.2.3.tgz#d89930f0ce343fad2bee0d3c2188f42171a91cdd"
-  integrity sha512-5spO7L0rNmW0jFuNhz+gfirlFt1anle4mTy4+gFkgsH0+T3R5++4oncBrzeKa7v8pweRyGBoGmOpboqlxovg6A==
+  version "23.2.6"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.2.6.tgz#70c09517c301f206615acd6fc35b4a2570629300"
+  integrity sha512-i0P2XBisewaICJ7UQtwymeJj6cXUigM+s8XNIXmWk4oJ8iTok2taCbOTX0ps+u9DFcQ6FWH6xLIU0dLEnMaNbA==
   dependencies:
     "@babel/runtime" "^7.22.5"
 
