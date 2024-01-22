@@ -141,9 +141,9 @@ caseless@~0.12.0:
   integrity sha512-4tYFyifaFfGacoiObjJegolkwSU4xQNGbVgUiNYVUxbQ2x2lUsFvY4hVgVzGiIe6WLOPqycWXA40l+PWsxthUw==
 
 chemicaltools-bot@^1.0.5:
-  version "1.0.52"
-  resolved "https://registry.yarnpkg.com/chemicaltools-bot/-/chemicaltools-bot-1.0.52.tgz#3eb4577a0ee5ca90dbfd62c21126e714eb9ec5c3"
-  integrity sha512-ecXCn5ghcqCgbRMqVO+VT4IIBQoHpLFyon82qYN5OmQ3zNXFqwIz5vtZH3n11x36ugv6TwRgJvjyCSXrH3nvHQ==
+  version "1.0.53"
+  resolved "https://registry.yarnpkg.com/chemicaltools-bot/-/chemicaltools-bot-1.0.53.tgz#a6931017428517b1595f490564cee62831c00f4c"
+  integrity sha512-Cu5mM1NyEV+9eBdwhNBasaSCYNqEGK3MDp4qwW48UfXksW92ZOin1TbxJ8MOao9bJ+VA1BgNLr+ikTLDSfnrpQ==
   dependencies:
     chemicaltools "^1.2.4"
     i18next "^23.0.0"
